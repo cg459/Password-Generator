@@ -2,7 +2,6 @@
 #include <stdlib.h>
 #include <string>
 
-
 class pass{
     private:
         int specialRan;
