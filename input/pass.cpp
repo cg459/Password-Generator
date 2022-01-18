@@ -36,4 +36,9 @@ class pass{
                 special = rand() % 4+123; 
             a.push_back(special);
         }
+
+        void printcap()
+        {
+            std::cout<<a;
+        }
 };

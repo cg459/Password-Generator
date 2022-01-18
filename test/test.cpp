@@ -8,16 +8,8 @@ int main(void)
 {
     
     bool my_dict[4] = {false, false, false, false};
-    std::cout <<my_dict[0]<< std::endl;
-    std::cout <<my_dict[1]<< std::endl;
-    std::cout <<my_dict[2]<< std::endl;
-    std::cout <<my_dict[3]<< std::endl;
-    test(my_dict[0]);
-    test(my_dict[2]);
-    std::cout <<my_dict[0]<< std::endl;
-    std::cout <<my_dict[1]<< std::endl;
-    std::cout <<my_dict[2]<< std::endl;
-    std::cout <<my_dict[3]<< std::endl;
+    std::cout<< std::endl<<std::endl;
+
 }
 
 bool test (bool &b){

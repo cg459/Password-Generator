@@ -8,7 +8,6 @@ class pass{
         std::string a;
 
     public:
-
         void addNum(){
             char num = rand() % 10+48;
             a.push_back(num);
@@ -17,13 +16,11 @@ class pass{
             char lower = rand() % 26+97;
             a.push_back(lower);
         }
-        void addUpper()
-        {
+        void addUpper(){
             char cap = rand() % 26+65; 
             a.push_back(cap);
         }
-        void addSpecial()
-        {
+        void addSpecial(){
             char special;
             specialRan = rand()% 4;
             if(specialRan == 0)
@@ -35,5 +32,9 @@ class pass{
             else if(specialRan == 3)
                 special = rand() % 4+123; 
             a.push_back(special);
+        }
+        
+        void printcap(){
+            std::cout<<a;
         }
 };
